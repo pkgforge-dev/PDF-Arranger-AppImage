@@ -6,7 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm pdfarranger
+pacman -Syu --noconfirm pdfarranger img2pdf
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
