@@ -11,6 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/256x256/apps/com.github.jeromerobert.pdfarranger.png
 export DESKTOP=/usr/share/applications/com.github.jeromerobert.pdfarranger.desktop
 export DEPLOY_SYS_PYTHON=1
+export DEPLOY_GHOSTSCRIPT=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/pdfarranger /usr/lib/libgtk-3.so*
